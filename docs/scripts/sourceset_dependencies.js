@@ -1,1 +1,1 @@
-sourceset_dependencies='{"core/JVM":[]}'
+sourceset_dependencies='{"eu.amdexfieldlab/JVM":[]}'

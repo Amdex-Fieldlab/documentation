@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>UserManagementWebsitePages</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>eu.amdexfieldlab</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter="eu.amdexfieldlab/JVM">JVM</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="eu.amdexfieldlab::eu.amdexfieldlab.prototype.server.webserver.defaultpages/UserManagementWebsitePages///PointingToDeclaration//2022472540">
+  <div class="breadcrumbs"><a href="../../../index.html">eu.amdexfieldlab</a><span class="delimiter">/</span><a href="../index.html">eu.amdexfieldlab.prototype.server.webserver.defaultpages</a><span class="delimiter">/</span><span class="current">UserManagementWebsitePages</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>User</span><wbr></wbr><span>Management</span><wbr></wbr><span>Website</span><wbr></wbr><span><span>Pages</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">class </span><a href="index.html">UserManagementWebsitePages</a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">rootPath<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>userStore<span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.userstore/-i-user-store/index.html">IUserStore</a><span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword">val </span>nodeName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span> : <a href="../../eu.amdexfieldlab.prototype.server.webserver/-i-user-management-website-pages/index.html">IUserManagementWebsitePages</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="CONSTRUCTOR">
+        <h2 class="">Constructors</h2>
+        <div class="table"><a data-name="261318267%2FConstructors%2F2022472540" anchor-label="UserManagementWebsitePages" id="261318267%2FConstructors%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-togglable="CONSTRUCTOR" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-user-management-website-pages.html"><span>User</span><wbr></wbr><span>Management</span><wbr></wbr><span>Website</span><wbr></wbr><span><span>Pages</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="261318267%2FConstructors%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">constructor</span><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">rootPath<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">userStore<span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.userstore/-i-user-store/index.html">IUserStore</a><span class="token punctuation">, </span></span><span class="parameter ">nodeName<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="1078124549%2FProperties%2F2022472540" anchor-label="addUser" id="1078124549%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-user.html"><span>add</span><wbr></wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1078124549%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="add-user.html">addUser</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1155785297%2FProperties%2F2022472540" anchor-label="addUserToGroup" id="1155785297%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="add-user-to-group.html"><span>add</span><wbr></wbr><span>User</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1155785297%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="add-user-to-group.html">addUserToGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1259938724%2FProperties%2F2022472540" anchor-label="allGroups" id="-1259938724%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="all-groups.html"><span>all</span><wbr></wbr><span><span>Groups</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1259938724%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="all-groups.html">allGroups</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="862823674%2FProperties%2F2022472540" anchor-label="allGroupsOfUser" id="862823674%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="all-groups-of-user.html"><span>all</span><wbr></wbr><span>Groups</span><wbr></wbr><span>Of</span><wbr></wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="862823674%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="all-groups-of-user.html">allGroupsOfUser</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1280795406%2FProperties%2F2022472540" anchor-label="createGroup" id="1280795406%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="create-group.html"><span>create</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1280795406%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="create-group.html">createGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="718416765%2FProperties%2F2022472540" anchor-label="deleteGroup" id="718416765%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="delete-group.html"><span>delete</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="718416765%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="delete-group.html">deleteGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="58799276%2FProperties%2F2022472540" anchor-label="isUserInGroup" id="58799276%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="is-user-in-group.html"><span>is</span><wbr></wbr><span>User</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="58799276%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="is-user-in-group.html">isUserInGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="960222407%2FProperties%2F2022472540" anchor-label="listUsers" id="960222407%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="list-users.html"><span>list</span><wbr></wbr><span><span>Users</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="960222407%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="list-users.html">listUsers</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1117341768%2FProperties%2F2022472540" anchor-label="login" id="1117341768%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="login.html"><span><span>login</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1117341768%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="login.html">login</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1511924705%2FProperties%2F2022472540" anchor-label="logout" id="-1511924705%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="logout.html"><span><span>logout</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1511924705%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="logout.html">logout</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="220569834%2FProperties%2F2022472540" anchor-label="menu" id="220569834%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="menu.html"><span><span>menu</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="220569834%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="menu.html">menu</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2046707804%2FProperties%2F2022472540" anchor-label="nodeName" id="2046707804%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="node-name.html"><span>node</span><wbr></wbr><span><span>Name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2046707804%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="node-name.html">nodeName</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2038954458%2FProperties%2F2022472540" anchor-label="register" id="-2038954458%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="register.html"><span><span>register</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2038954458%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="register.html">register</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="71999706%2FProperties%2F2022472540" anchor-label="removeUser" id="71999706%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remove-user.html"><span>remove</span><wbr></wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="71999706%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="remove-user.html">removeUser</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1455945739%2FProperties%2F2022472540" anchor-label="removeUserFromGroup" id="1455945739%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="remove-user-from-group.html"><span>remove</span><wbr></wbr><span>User</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1455945739%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="remove-user-from-group.html">removeUserFromGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-349612739%2FProperties%2F2022472540" anchor-label="submitAddUser" id="-349612739%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-add-user.html"><span>submit</span><wbr></wbr><span>Add</span><wbr></wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-349612739%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-add-user.html">submitAddUser</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1308728857%2FProperties%2F2022472540" anchor-label="submitAddUserToGroup" id="1308728857%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-add-user-to-group.html"><span>submit</span><wbr></wbr><span>Add</span><wbr></wbr><span>User</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1308728857%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-add-user-to-group.html">submitAddUserToGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1309106738%2FProperties%2F2022472540" anchor-label="submitAllGroupsOfUser" id="1309106738%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-all-groups-of-user.html"><span>submit</span><wbr></wbr><span>All</span><wbr></wbr><span>Groups</span><wbr></wbr><span>Of</span><wbr></wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1309106738%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-all-groups-of-user.html">submitAllGroupsOfUser</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2012185530%2FProperties%2F2022472540" anchor-label="submitCreateGroup" id="-2012185530%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-create-group.html"><span>submit</span><wbr></wbr><span>Create</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2012185530%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-create-group.html">submitCreateGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1720403125%2FProperties%2F2022472540" anchor-label="submitDeleteGroup" id="1720403125%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-delete-group.html"><span>submit</span><wbr></wbr><span>Delete</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1720403125%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-delete-group.html">submitDeleteGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="895016932%2FProperties%2F2022472540" anchor-label="submitIsUserInGroup" id="895016932%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-is-user-in-group.html"><span>submit</span><wbr></wbr><span>Is</span><wbr></wbr><span>User</span><wbr></wbr><span>In</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="895016932%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-is-user-in-group.html">submitIsUserInGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1601459328%2FProperties%2F2022472540" anchor-label="submitLogin" id="-1601459328%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-login.html"><span>submit</span><wbr></wbr><span><span>Login</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1601459328%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-login.html">submitLogin</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="945829870%2FProperties%2F2022472540" anchor-label="submitRegister" id="945829870%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-register.html"><span>submit</span><wbr></wbr><span><span>Register</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="945829870%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-register.html">submitRegister</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-588414814%2FProperties%2F2022472540" anchor-label="submitRemoveUser" id="-588414814%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-remove-user.html"><span>submit</span><wbr></wbr><span>Remove</span><wbr></wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-588414814%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-remove-user.html">submitRemoveUser</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-414164669%2FProperties%2F2022472540" anchor-label="submitRemoveUserFromGroup" id="-414164669%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="submit-remove-user-from-group.html"><span>submit</span><wbr></wbr><span>Remove</span><wbr></wbr><span>User</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Group</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-414164669%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="submit-remove-user-from-group.html">submitRemoveUserFromGroup</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.server.webserver/-web-page-dsl/index.html">WebPageDsl</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="596659835%2FProperties%2F2022472540" anchor-label="userStore" id="596659835%2FProperties%2F2022472540" data-filterable-set="eu.amdexfieldlab/JVM"></a>
+          <div class="table-row" data-filterable-current="eu.amdexfieldlab/JVM" data-filterable-set="eu.amdexfieldlab/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="user-store.html"><span>user</span><wbr></wbr><span><span>Store</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="596659835%2FProperties%2F2022472540"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="eu.amdexfieldlab/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="user-store.html">userStore</a><span class="token operator">: </span><a href="../../eu.amdexfieldlab.prototype.userstore/-i-user-store/index.html">IUserStore</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
