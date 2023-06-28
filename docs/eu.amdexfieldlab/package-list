@@ -16,7 +16,6 @@ $dokka.location:eu.amdexfieldlab.core.audit/AuditLog/info/#kotlin.String?/Pointi
 $dokka.location:eu.amdexfieldlab.core.audit/AuditLog/infoWithStacktrace/#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-audit-log/info-with-stacktrace.html
 $dokka.location:eu.amdexfieldlab.core.audit/AuditLog/infoWithThrowable/#kotlin.String#kotlin.Throwable/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-audit-log/info-with-throwable.html
 $dokka.location:eu.amdexfieldlab.core.audit/AuditLog/log/#eu.amdexfieldlab.core.serialization.ISerializableObject/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-audit-log/log.html
-$dokka.location:eu.amdexfieldlab.core.audit/AuditLog/logInMemory/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-audit-log/log-in-memory.html
 $dokka.location:eu.amdexfieldlab.core.audit/AuditLog/messages/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-audit-log/messages.html
 $dokka.location:eu.amdexfieldlab.core.audit/AuditLog/todo/#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-audit-log/todo.html
 $dokka.location:eu.amdexfieldlab.core.audit/AuditLog/warn/#kotlin.String?/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-audit-log/warn.html
@@ -43,7 +42,6 @@ $dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/infoWithThrowable/#kotlin.
 $dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/log/#eu.amdexfieldlab.core.serialization.ISerializableObject/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-i-audit-log/log.html
 $dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/log/#kotlin.String#kotlin.Array[kotlin.Pair[kotlin.String,kotlin.String]]/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-i-audit-log/log.html
 $dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/log/#kotlin.String#kotlin.String#kotlin.Array[kotlin.Pair[kotlin.String,kotlin.String]]/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-i-audit-log/log.html
-$dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/logInMemory/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-i-audit-log/log-in-memory.html
 $dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/messages/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-i-audit-log/messages.html
 $dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/todo/#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-i-audit-log/todo.html
 $dokka.location:eu.amdexfieldlab.core.audit/IAuditLog/warn/#kotlin.String?/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.core.audit/-i-audit-log/warn.html
