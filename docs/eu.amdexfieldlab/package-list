@@ -1199,6 +1199,12 @@ $dokka.location:eu.amdexfieldlab.demo.unl.data/InstitutionDB/allUnlDataAanstelli
 $dokka.location:eu.amdexfieldlab.demo.unl.data/InstitutionDB/allUnlDataPersonen/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-institution-d-b/all-unl-data-personen.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/InstitutionDB/unlDataAanstellingenColumnNames/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-institution-d-b/unl-data-aanstellingen-column-names.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/InstitutionDB/unlDataPersonenColumnNames/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-institution-d-b/unl-data-personen-column-names.html
+$dokka.location:eu.amdexfieldlab.demo.unl.data/Role.Admin///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-role/-admin/index.html
+$dokka.location:eu.amdexfieldlab.demo.unl.data/Role.Analyst///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-role/-analyst/index.html
+$dokka.location:eu.amdexfieldlab.demo.unl.data/Role.Steward///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-role/-steward/index.html
+$dokka.location:eu.amdexfieldlab.demo.unl.data/Role///PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-role/index.html
+$dokka.location:eu.amdexfieldlab.demo.unl.data/Role/valueOf/#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-role/value-of.html
+$dokka.location:eu.amdexfieldlab.demo.unl.data/Role/values/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-role/values.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UniversityDBDefinition///PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-university-d-b-definition/index.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UniversityDBDefinition/UniversityDBDefinition/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-university-d-b-definition/-university-d-b-definition.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlError.ReasonNotSpecfified///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-error/-reason-not-specfified/index.html
@@ -1219,7 +1225,7 @@ $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlError/values/#/PointingToDecla
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser///PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/index.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser/UnlUser/#eu.amdexfieldlab.prototype.userstore.IUser/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/-unl-user.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser/UnlUser/#eu.amdexfieldlab.prototype.userstore.IUserStore#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/-unl-user.html
-$dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser/UnlUser/#kotlin.String#kotlin.String#kotlin.collections.Set[usecases.unl.data.Role]#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/-unl-user.html
+$dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser/UnlUser/#kotlin.String#kotlin.String#kotlin.collections.Set[eu.amdexfieldlab.demo.unl.data.Role]#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/-unl-user.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser/email/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/email.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser/institution/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/institution.html
 $dokka.location:eu.amdexfieldlab.demo.unl.data/UnlUser/name/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.data/-unl-user/name.html
@@ -1396,7 +1402,7 @@ $dokka.location:eu.amdexfieldlab.demo.unl.webServer/UnlError/values/#/PointingTo
 $dokka.location:eu.amdexfieldlab.demo.unl.webServer/UnlHandler.Companion///PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.webServer/-unl-handler/-companion/index.html
 $dokka.location:eu.amdexfieldlab.demo.unl.webServer/UnlHandler.Companion/orchestrator/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.webServer/-unl-handler/-companion/orchestrator.html
 $dokka.location:eu.amdexfieldlab.demo.unl.webServer/UnlHandler///PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.webServer/-unl-handler/index.html
-$dokka.location:eu.amdexfieldlab.demo.unl.webServer/UnlHandler/UnlHandler/#kotlin.String#usecases.unl.data.Role?#kotlin.Function1[eu.amdexfieldlab.prototype.server.RequestContext,kotlin.Any]/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.webServer/-unl-handler/-unl-handler.html
+$dokka.location:eu.amdexfieldlab.demo.unl.webServer/UnlHandler/UnlHandler/#kotlin.String#eu.amdexfieldlab.demo.unl.data.Role?#kotlin.Function1[eu.amdexfieldlab.prototype.server.RequestContext,kotlin.Any]/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.webServer/-unl-handler/-unl-handler.html
 $dokka.location:eu.amdexfieldlab.demo.unl.webServer/UserInfo///PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.webServer/-user-info/index.html
 $dokka.location:eu.amdexfieldlab.demo.unl.webServer/UserInfo/UserInfo/#eu.amdexfieldlab.prototype.userstore.IUserStore/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl.webServer/-user-info/-user-info.html
 $dokka.location:eu.amdexfieldlab.demo.unl////PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.demo.unl/index.html
@@ -2071,13 +2077,6 @@ $dokka.location:eu.amdexfieldlab.prototype/SimulatedSigning///PointingToDeclarat
 $dokka.location:eu.amdexfieldlab.prototype/SimulatedSigning/SimulatedSigning/#/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.prototype/-simulated-signing/-simulated-signing.html
 $dokka.location:eu.amdexfieldlab.prototype/SimulatedSigning/sign/#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.prototype/-simulated-signing/sign.html
 $dokka.location:eu.amdexfieldlab.prototype/SimulatedSigning/validate/#eu.amdexfieldlab.core.identity.Identity#kotlin.String#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/eu.amdexfieldlab.prototype/-simulated-signing/validate.html
-$dokka.location:usecases.unl.data////PointingToDeclaration/eu.amdexfieldlab/usecases.unl.data/index.html
-$dokka.location:usecases.unl.data/Role.Admin///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eu.amdexfieldlab/usecases.unl.data/-role/-admin/index.html
-$dokka.location:usecases.unl.data/Role.Analyst///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eu.amdexfieldlab/usecases.unl.data/-role/-analyst/index.html
-$dokka.location:usecases.unl.data/Role.Steward///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}eu.amdexfieldlab/usecases.unl.data/-role/-steward/index.html
-$dokka.location:usecases.unl.data/Role///PointingToDeclaration/eu.amdexfieldlab/usecases.unl.data/-role/index.html
-$dokka.location:usecases.unl.data/Role/valueOf/#kotlin.String/PointingToDeclaration/eu.amdexfieldlab/usecases.unl.data/-role/value-of.html
-$dokka.location:usecases.unl.data/Role/values/#/PointingToDeclaration/eu.amdexfieldlab/usecases.unl.data/-role/values.html
 eu.amdexfieldlab.core.audit
 eu.amdexfieldlab.core.backbone
 eu.amdexfieldlab.core.certificates
@@ -2123,5 +2122,4 @@ eu.amdexfieldlab.prototype.server.webserver.defaultpages
 eu.amdexfieldlab.prototype.server.webserver.section
 eu.amdexfieldlab.prototype.thirdparty
 eu.amdexfieldlab.prototype.userstore
-usecases.unl.data
 
